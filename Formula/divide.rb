@@ -2,27 +2,27 @@ class Divide < Formula
   desc "IDE for developing generators with the Divengine ecosystem"
   homepage "https://github.com/divengine/divide"
   license "GPL-3.0-or-later"
-  version "0.6.1"
+  version "0.7.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/divengine/divide/releases/download/v0.6.1/divide-0.6.1-macos-arm64.tar.gz"
-      sha256 "d3b0a3c8b66532c4d22ee913c4bf18a01ae26f21729ad70e4c921db2cce8df87"
+      url "https://github.com/divengine/divide/releases/download/v0.7.0/divide-0.7.0-macos-arm64.tar.gz"
+      sha256 "e6505bec4679430b953aa03b77eb4b5fc240e1b71a520b8de1d9055331375c8c"
     end
     on_intel do
-      url "https://github.com/divengine/divide/releases/download/v0.6.1/divide-0.6.1-macos-x86_64.tar.gz"
-      sha256 "3d4e96ae7b4a8791997ee988850360577c87b46c5a71900c2573656969e019b6"
+      url "https://github.com/divengine/divide/releases/download/v0.7.0/divide-0.7.0-macos-x86_64.tar.gz"
+      sha256 "1b12e9a10ed9ce9e06b407df24d83b12bc81d622b3e4ab86382d0f1543f12247"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/divengine/divide/releases/download/v0.6.1/divide-0.6.1-linux-arm64.tar.gz"
-      sha256 "a9105de6d678cb57943f1ed72b35e1100947132390080f6aa146620a11cef381"
+      url "https://github.com/divengine/divide/releases/download/v0.7.0/divide-0.7.0-linux-arm64.tar.gz"
+      sha256 "49890d711f6e75b49f4dff5f9f92ebbd53dfbc8c71fe3232c920161c28273608"
     end
     on_intel do
-      url "https://github.com/divengine/divide/releases/download/v0.6.1/divide-0.6.1-linux-x86_64.tar.gz"
-      sha256 "7c0b9a0d5dca3311f6c4382b8741a658d3a51bae5ba8eaaad0e6a386461bd734"
+      url "https://github.com/divengine/divide/releases/download/v0.7.0/divide-0.7.0-linux-x86_64.tar.gz"
+      sha256 "f801f96e106adbae2b8c911facfbcb8a1d1151a9eb60e5c6d7441bdb866f0133"
     end
   end
 
